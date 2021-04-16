@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "806099917881",
+    "project_id": "quiz-1afe8",
+    "storage_bucket": "quiz-1afe8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806099917881:android:ad7356fc9953d0ae1d01e8",
+        "android_client_info": {
+          "package_name": "com.thanhnguyen.quizgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806099917881-ui7dv9fc67ot7b06dvr3vpmifgeam1e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrsAGgVioOYj6nEQGf_69MPYXVrEbJ6hY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806099917881-ui7dv9fc67ot7b06dvr3vpmifgeam1e1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

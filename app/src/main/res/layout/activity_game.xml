@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2d4059"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintBottom_toTopOf="@id/questionNumTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/currentScoreTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/timerTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/questionNumTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout"
+        app:layout_constraintBottom_toTopOf="@id/questionTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/questionNumTextView"
+        app:layout_constraintBottom_toTopOf="@id/questionRadioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center" />
+
+    <RadioGroup
+        android:id="@+id/questionRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/questionTextView"
+        app:layout_constraintBottom_toTopOf="@id/answerButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/radio1"
+            android:checked="false"
+            android:textSize="15sp" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/radio2"
+            android:checked="false"
+            android:textSize="15sp" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/radio3"
+            android:checked="false"
+            android:textSize="15sp" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/radio4"
+            android:checked="false"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/answerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="30dp"
+        android:text="Confirm answer"
+        android:fontFamily="@font/cubano"
+        android:background="@drawable/button_gradient"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/questionRadioGroup" />
+</androidx.constraintlayout.widget.ConstraintLayout>

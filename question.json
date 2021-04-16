@@ -1,0 +1,455 @@
+{
+  "db" : {
+    "globalRecords" : [ null, {
+      "date" : "30/03/2021",
+      "score" : 550,
+      "user" : "phunghuuhuong@gmail.com"
+    }, {
+      "date" : "30/03/2021",
+      "score" : 550,
+      "user" : "phunghuuhuong@gmail.com"
+    }, {
+      "date" : "30/03/2021",
+      "score" : 550,
+      "user" : "phunghuuhuong@gmail.com"
+    }, {
+      "date" : "30/03/2021",
+      "score" : 550,
+      "user" : "phunghuuhuong@gmail.com"
+    }, {
+      "date" : "30/03/2021",
+      "score" : 550,
+      "user" : "phunghuuhuong@gmail.com"
+    }, {
+      "date" : "30/03/2021",
+      "score" : 550,
+      "user" : "phunghuuhuong@gmail.com"
+    }, {
+      "date" : "30/03/2021",
+      "score" : 550,
+      "user" : "phunghuuhuong@gmail.com"
+    }, {
+      "date" : "30/03/2021",
+      "score" : 550,
+      "user" : "phunghuuhuong@gmail.com"
+    }, {
+      "date" : "01/04/2021",
+      "score" : 440,
+      "user" : "nguyendanhthanh980@gmail.com"
+    }, {
+      "date" : "01/04/2021",
+      "score" : 440,
+      "user" : "nguyendanhthanh980@gmail.com"
+    } ],
+    "personalScores" : {
+      "9bBqsc0JaSQJdJLvGhH5W7VG5b23" : {
+        "-MYB2cCrUNXtEohmWfr0" : 370
+      },
+      "KL5GYE7nMXNIRNjvtea5ulFBRlr1" : {
+        "-MX_e8YxHmm5rX3_ItLW" : 10,
+        "-MX_eiLNDfZfAYqAqBDi" : 50,
+        "-MXkf5AnhNxUWsK3SMib" : 400,
+        "-MY9dQkOjTzvlDEVPsbL" : 270
+      },
+      "RCPtdoboaHOR8vlUmyHyybuEKPH2" : {
+        "-MXF3hOpihZQzBMBVQMX" : 10,
+        "-MXF59Uyuo2gTSkTnktJ" : 10
+      },
+      "TFrwYn1VjYOroTWKzXD5VbKDib02" : {
+        "-MYB6x2KuMb8ChozUArV" : 410
+      },
+      "p1aNdKKBNjMFKoo44V7KcZ7oAk82" : {
+        "-MWxGyPkMq3GDvfdof2S" : 360,
+        "-MWxKF9lq-8fUxfJMMfg" : 340,
+        "-MXBcCadJOWUMaRFzX9n" : 310,
+        "-MXCq7Z4yEie6hHSs5x9" : 380,
+        "-MXD-j3w8JVskeLcT9eJ" : 400,
+        "-MXD4HAt4UZa7Z3Tuyx7" : 330,
+        "-MXD4eAkb-9jfMSYU895" : 440,
+        "-MXF5vcwPmmtN8ugbtnQ" : 0,
+        "-MXF5w-0LCV0NwuWiCZb" : 0,
+        "-MXGNr13AuXrjQd2toyX" : 250,
+        "-MXHANPAm8jVYYtWj3Ev" : 0
+      },
+      "uc8IRsobXxSxUnRzMzor7QAweYk1" : {
+        "-MX2dlFAGrPBWidwxltk" : 360,
+        "-MX2hd5F4WHX2HrVDRqa" : 390,
+        "-MX2hz1DnENymCYDaGGf" : 550,
+        "-MXmqjPYiKZrddrvM5k1" : 310,
+        "-MY9pgnt5ltoALq23Dwf" : 410,
+        "-MY9v3uC3lO2Y7mKspv7" : 0
+      }
+    },
+    "questions" : {
+      "cvGeography" : [ {
+      "correct_answer" : "Thừa Thiên Huế",
+      "incorrect_answer1" : "Hải Phòng",
+      "incorrect_answer2" : "Lâm Đồng",
+      "incorrect_answer3" : "Thanh Hoá",
+      "question" : "Tỉnh nào đăng cai tổ chức Năm du lịch Quốc gia 2012?"
+    }, {
+      "correct_answer" : "Philippines",
+      "incorrect_answer1" : "Malaysia",
+      "incorrect_answer2" : "Lào",
+      "incorrect_answer3" : "Thái Lan",
+      "question" : "Nước nào ở khu vực Đông Nam Á không có địa giới với bất kỳ nước khác?"
+    }, {
+      "correct_answer" : "Sông Nhật Lệ",
+      "incorrect_answer1" : "Sông Gianh",
+      "incorrect_answer2" : "Sông Long Đại",
+      "incorrect_answer3" : "Sông Kiến Giang",
+      "question" : "Tượng đài Mẹ Suốt nằm bên cạnh con sông nào?"
+    }, {
+      "correct_answer" : "Nam Phi",
+      "incorrect_answer1" : "Mexico",
+      "incorrect_answer2" : "Qatar và Hàn Quốc",
+      "incorrect_answer3" : "Đan Mạch",
+      "question" : "Hội nghị chống biến đổi khí hậu lần thứ 17- 2011 được tổ chức tại nước nào?"
+    }, {
+      "correct_answer" : "Quảng Trị",
+      "incorrect_answer1" : "Quảng Bình",
+      "incorrect_answer2" : "Quảng Ninh",
+      "incorrect_answer3" : "Quảng Ngãi",
+      "question" : "Sông Bến Hải và sông Thạch Hãn nằm ở tỉnh nào?"
+    }, {
+      "correct_answer" : "Sydney",
+      "incorrect_answer1" : "Tokyo",
+      "incorrect_answer2" : "Bắc Kinh",
+      "incorrect_answer3" : "Singapore",
+      "question" : "Sự kiện giờ Trái Đất được tổ chức lần đầu tiên vào năm 2007 tại thành phố nào?"
+    }, {
+      "correct_answer" : "Việt Nam",
+      "incorrect_answer1" : "Campuchia",
+      "incorrect_answer2" : "Lào",
+      "incorrect_answer3" : "Myanmar",
+      "question" : "Nằm ở rìa phía Đông của bán đảo Đông Dương là nước?"
+    }, {
+      "correct_answer" : "Hà Giang",
+      "incorrect_answer1" : "Cao Bằng",
+      "incorrect_answer2" : "Yên Bái",
+      "incorrect_answer3" : "Lạng Sơn",
+      "question" : "Điểm cực Bắc của nước ta là xã Lũng Cú thuộc tỉnh?"
+    }, {
+      "correct_answer" : "Khánh Hòa",
+      "incorrect_answer1" : "Ninh Thuận",
+      "incorrect_answer2" : "Đà Nẵng",
+      "incorrect_answer3" : "Phú Yên",
+      "question" : "Điểm cực Đông của nước ta là xã Vạn Thạnh thuộc tỉnh?"
+    }, {
+      "correct_answer" : "5",
+      "incorrect_answer1" : "6",
+      "incorrect_answer2" : "7",
+      "incorrect_answer3" : "8",
+      "question" : "Nước ta nằm trong múi giờ thứ mấy?"
+    }, {
+      "correct_answer" : "Điểm cực Đông nước ta",
+      "incorrect_answer1" : "Có nhiều đảo",
+      "incorrect_answer2" : "Có nhiều hải sản nhất",
+      "incorrect_answer3" : "Có nhiều than nhấ",
+      "question" : "Ở tỉnh Khánh Hòa có một đặc điểm tự nhiên rất đặc biệt là?"
+    }, {
+      "correct_answer" : "Lào",
+      "incorrect_answer1" : "Campuchia",
+      "incorrect_answer2" : "Trung Quốc",
+      "incorrect_answer3" : "Thái Lan",
+      "question" : "Đường biên giới dài nhất trên đất liền nước ta là với quốc gia nào sau đây?"
+    }, {
+      "correct_answer" : "Trung Quốc, Lào, Campuchia",
+      "incorrect_answer1" : "Trung Quốc, Campuchia, Thái Lan",
+      "incorrect_answer2" : "Lào, Thái Lan, Campuchia",
+      "incorrect_answer3" : "Trung Quốc, Lào, Myanmar",
+      "question" : "Nước ta có đường biên giới trên đất liền với?"
+    }, {
+      "correct_answer" : "Nội thủy",
+      "incorrect_answer1" : "Thềm lục địa",
+      "incorrect_answer2" : "Vùng đặc quyền kinh tế",
+      "incorrect_answer3" : "Lãnh hải",
+      "question" : "Bộ phận nào sau đây được xem như bộ phận lãnh thổ trên đất liền?"
+    }, {
+      "correct_answer" : "Thái Lan",
+      "incorrect_answer1" : "Lào",
+      "incorrect_answer2" : "Trung Quốc",
+      "incorrect_answer3" : "Campuchia",
+      "question" : "Trên đất liền, nước ta không có chung biên giới với nước nào?"
+    }, {
+      "correct_answer" : "Tài nguyên biển",
+      "incorrect_answer1" : "Tài nguyên đất",
+      "incorrect_answer2" : "Tài nguyên rừng",
+      "incorrect_answer3" : "Tài nguyên khoáng sản",
+      "question" : "Ở nước ta, loại tài nguyên có triển vọng khai thác lớn nhưng chưa được chú ý đúng mức là?"
+    }, {
+      "correct_answer" : "Vị trí địa lí",
+      "incorrect_answer1" : "Vai trò của biển Đông",
+      "incorrect_answer2" : "Sự hiện diện của các khối khí",
+      "incorrect_answer3" : "Hình dạng lãnh thổ",
+      "question" : "Tính chất nhiệt đới của khí hậu nước ta được quy định bởi?"
+    }, {
+      "correct_answer" : "Các khối khí di chuyển qua biển",
+      "incorrect_answer1" : "Lượng mưa trung bình năm cao",
+      "incorrect_answer2" : "Nước ta nằm trong vùng nội chí tuyến",
+      "incorrect_answer3" : "Lãnh thổ kéo dài, hẹp ngang",
+      "question" : "Nguyên nhân nào làm tăng cường độ ẩm ở nước ta là?"
+    }, {
+      "correct_answer" : "Bắc Trung Bộ",
+      "incorrect_answer1" : "Nam Trung Bộ",
+      "incorrect_answer2" : "Tây Bắc",
+      "incorrect_answer3" : "Đông Bắc",
+      "question" : "Gió Tây khô nóng là hiện tượng thời tiết đặc trưng nhất cho khu vực?"
+    }, {
+      "correct_answer" : "Tây Nguyên và Nam Bộ",
+      "incorrect_answer1" : "Nam Bộ",
+      "incorrect_answer2" : "Trên cả nước",
+      "incorrect_answer3" : "Phía Nam đèo Hải Vân",
+      "question" : "Vào đầu mùa hạ gió mùa Tây Nam gây mưa ở vùng?"
+    } ],
+      "cvMath" : [ {
+      "correct_answer" : "2m",
+      "incorrect_answer1" : "20m",
+      "incorrect_answer2" : "32m",
+      "incorrect_answer3" : "320m",
+      "question" : "Một hình vuông có chu vi 8000mm thì cạnh của hình vuông là?"
+    }, {
+      "correct_answer" : "59,88",
+      "incorrect_answer1" : "4269,36",
+      "incorrect_answer2" : "5988",
+      "incorrect_answer3" : "58,98",
+      "question" : "Thực hiện tính: 17,36 + 42,52 = ?"
+    }, {
+      "correct_answer" : "12,48",
+      "incorrect_answer1" : "8,43",
+      "incorrect_answer2" : "84,3",
+      "incorrect_answer3" : "52,98",
+      "question" : "Tìm x biết x - 4,5 = 7,89"
+    }, {
+      "correct_answer" : "Hình vuông",
+      "incorrect_answer1" : "Hình chữ nhật",
+      "incorrect_answer2" : "Hình bình hành",
+      "incorrect_answer3" : "Hình thoi",
+      "question" : "Điền cụm từ thích hợp nhất vào chỗ trống: \"Tứ giác có 4 cạnh bằng nhau và 4 góc bằng nhau là …\""
+    }, {
+      "correct_answer" : "Hình vuông là hình chữ nhật nhưng không là hình thoi",
+      "incorrect_answer1" : "Hình vuông vừa là hình thoi vừa là hình chữ nhật",
+      "incorrect_answer2" : "Hình vuông có hai đường chéo bằng nhau và vuông góc với nhau",
+      "incorrect_answer3" : "Hình vuông có đường chéo là phân giác các góc trong hình vuông",
+      "question" : "Khẳng định nào sau đây là sai?"
+    }, {
+      "correct_answer" : "Hình thoi",
+      "incorrect_answer1" : "Hình chữ nhật",
+      "incorrect_answer2" : "Hình thang cân",
+      "incorrect_answer3" : "Hình bình hành",
+      "question" : "Chọn câu trả lời đúng. Tứ giác nào có hai đường chéo vuông góc với nhau?"
+    }, {
+      "correct_answer" : "Hình thoi",
+      "incorrect_answer1" : "Hình chữ nhật",
+      "incorrect_answer2" : "Hình thang cân",
+      "incorrect_answer3" : "Hình vuông",
+      "question" : "Chọn câu sai. Tứ giác nào có hai đường chéo bằng nhau?"
+    }, {
+      "correct_answer" : "7cm",
+      "incorrect_answer1" : "4cm",
+      "incorrect_answer2" : "14cm",
+      "incorrect_answer3" : "8cm",
+      "question" : "Cho hình vuông có chu vi 28 cm. Độ dài cạnh hình vuông là?"
+    }, {
+      "correct_answer" : "8cm",
+      "incorrect_answer1" : "15cm",
+      "incorrect_answer2" : "5cm",
+      "incorrect_answer3" : "10cm",
+      "question" : "Cho hình vuông có chu vi 32 cm. Độ dài cạnh hình vuông là?"
+    }, {
+      "correct_answer" : "32cm",
+      "incorrect_answer1" : "50cm",
+      "incorrect_answer2" : "25cm",
+      "incorrect_answer3" : "30cm",
+      "question" : "Cho hình vuông có chu vi 16 cm. Bình phương độ dài một đường chéo của hình vuông là?"
+    }, {
+      "correct_answer" : "83543",
+      "incorrect_answer1" : "82543",
+      "incorrect_answer2" : "82443",
+      "incorrect_answer3" : "83433",
+      "question" : "Tổng của 47856 và 35687 là?"
+    }, {
+      "correct_answer" : "53",
+      "incorrect_answer1" : "35",
+      "incorrect_answer2" : "43",
+      "incorrect_answer3" : "48",
+      "question" : "Giá trị của biểu thức: 5 x 7 + 18 là?"
+    }, {
+      "correct_answer" : "27",
+      "incorrect_answer1" : "24",
+      "incorrect_answer2" : "3",
+      "incorrect_answer3" : "9",
+      "question" : "Giá trị của x trong biểu thức x ÷ 3 = 9 là?"
+    }, {
+      "correct_answer" : "18cm",
+      "incorrect_answer1" : "15cm",
+      "incorrect_answer2" : "13cm",
+      "incorrect_answer3" : "19cm",
+      "question" : "6cm được gấp lên 3 lần thì có giá trị là?"
+    }, {
+      "correct_answer" : "69 bông hoa",
+      "incorrect_answer1" : "29 bông hoa",
+      "incorrect_answer2" : "20 bông hoa",
+      "incorrect_answer3" : "26 bông hoa",
+      "question" : "Trang có 23 bông hoa, số hoa của Tâm gấp 3 lần số hoa của Trang. Tâm có số bông hoa là?"
+    }, {
+      "correct_answer" : "35 tuổi",
+      "incorrect_answer1" : "30 tuổi",
+      "incorrect_answer2" : "25 tuổi",
+      "incorrect_answer3" : "40 tuổi",
+      "question" : "Năm nay con 6 tuổi, tuổi mẹ gấp 5 lần tuổi con. 5 năm nữa, mẹ có số tuổi là"
+    }, {
+      "correct_answer" : "15",
+      "incorrect_answer1" : "21",
+      "incorrect_answer2" : "56",
+      "incorrect_answer3" : "50",
+      "question" : "Một số giảm đi 5 lần thì bằng 12. Hỏi số đó giảm đi 4 lần thì được kết quả là bao nhiêu?"
+    }, {
+      "correct_answer" : "8 tuổi",
+      "incorrect_answer1" : "6 tuổi",
+      "incorrect_answer2" : "9 tuổi",
+      "incorrect_answer3" : "7 tuổi",
+      "question" : "Năm nay bố 42 tuổi. Tuổi con bằng tuổi bố giảm đi 7 lần. Hỏi hai năm sau, con bao nhiêu tuổi?"
+    }, {
+      "correct_answer" : "10 lần",
+      "incorrect_answer1" : "5 lần",
+      "incorrect_answer2" : "45 lần",
+      "incorrect_answer3" : "55 lần",
+      "question" : "Con lợn cân nặng 50 kg, con ngỗng nặng 5kg. Con lợn cân nặng gấp con ngỗng số lần là?"
+    }, {
+      "correct_answer" : "730 ngày",
+      "incorrect_answer1" : "367 ngày",
+      "incorrect_answer2" : "700 ngày",
+      "incorrect_answer3" : "740 ngày",
+      "question" : "Một năm có thường có 365 ngày. Hỏi 2 năm thường có bao nhiêu ngày?"
+    } ],
+      "cvLiterature" : [ {
+      "correct_answer" : "Hò vè",
+      "incorrect_answer1" : "Thơ ca",
+      "incorrect_answer2" : "Truyện kí",
+      "incorrect_answer3" : "Văn chính luận",
+      "question" : "Sáng tác của Hồ Chí Minh không bao gồm những thể loại nào trong các thể loại sau đây?"
+    }, {
+      "correct_answer" : "Văn chính luận",
+      "incorrect_answer1" : "Truyện",
+      "incorrect_answer2" : "Kí",
+      "incorrect_answer3" : "Thơ",
+      "question" : "Tuyên ngôn độc lập của Hồ Chí Minh được viết theo thể loại nào sau đây?"
+    }, {
+      "correct_answer" : "Hà Tây",
+      "incorrect_answer1" : "Hà Nội",
+      "incorrect_answer2" : "Hà Nam",
+      "incorrect_answer3" : "Hải Dương",
+      "question" : "Quê hương của Quang Dũng ở?"
+    }, {
+      "correct_answer" : "1921",
+      "incorrect_answer1" : "1915",
+      "incorrect_answer2" : "1922",
+      "incorrect_answer3" : "1925",
+      "question" : "Quang Dũng sinh năm nào?"
+    }, {
+      "correct_answer" : "1947",
+      "incorrect_answer1" : "1946",
+      "incorrect_answer2" : "1945",
+      "incorrect_answer3" : "1948",
+      "question" : "Đoàn quân Tây tiến được thành lập năm nào sau đây?"
+    }, {
+      "correct_answer" : "Lãng mạn",
+      "incorrect_answer1" : "Hiện thực",
+      "incorrect_answer2" : "Hiện thực XHCN",
+      "incorrect_answer3" : "Trào lộng",
+      "question" : "Bút pháp tiêu biểu của bài thơ Tây Tiến là?"
+    }, {
+      "correct_answer" : "Làm thơ",
+      "incorrect_answer1" : "Viết văn",
+      "incorrect_answer2" : "Soạn nhạc",
+      "incorrect_answer3" : "Viết phê bình",
+      "question" : "Hoạt động nghệ thuật của Nguyễn Đình Thi nổi bật nhất ở lĩnh vực nào?"
+    }, {
+      "correct_answer" : "Người chiến sỹ",
+      "incorrect_answer1" : "Tia nắng",
+      "incorrect_answer2" : "Dòng sông trong xanh",
+      "incorrect_answer3" : "Bài thơ Hắc Hải",
+      "question" : "Bài thơ Đất nước được in ở tập thơ nào?"
+    }, {
+      "correct_answer" : "Núi đồi chiến khu Việt Bắc",
+      "incorrect_answer1" : "Phố phường Hà Nội",
+      "incorrect_answer2" : "Miền đồi núi xa xôi",
+      "incorrect_answer3" : "Ở một nơi không xác định",
+      "question" : "Trong thơ Đất nước khi nói về mùa “thu nay” chủ thể trữ tình đứng ở đâu để bộc lộ cảm xúc?"
+    }, {
+      "correct_answer" : "1920 – 1989",
+      "incorrect_answer1" : "1920 – 1985",
+      "incorrect_answer2" : "1925 – 1989",
+      "incorrect_answer3" : "1925 – 1985",
+      "question" : "Năm sinh, năm mất của nhà thơ Chế Lan Viên là năm nào sau đây?"
+    }, {
+      "correct_answer" : "Quảng Trị",
+      "incorrect_answer1" : "Bình Định",
+      "incorrect_answer2" : "Thanh Hoá",
+      "incorrect_answer3" : "Nghệ An",
+      "question" : "Quê của nhà thơ Chế Lan Viên ở?"
+    }, {
+      "correct_answer" : "Điêu tàn",
+      "incorrect_answer1" : "Lửa thiêng",
+      "incorrect_answer2" : "Thơ thơ",
+      "incorrect_answer3" : "Đau thương",
+      "question" : "Trong những tập thơ tiêu biểu của các nhà thơ mới sau đây, tập thơ nào là của Chế Lan Viên?"
+    }, {
+      "correct_answer" : "Trời mỗi ngày lại sáng",
+      "incorrect_answer1" : "Những bài thơ đánh giặc",
+      "incorrect_answer2" : "Hoa ngày thường chim báo bão",
+      "incorrect_answer3" : "Ánh sáng và phù sa",
+      "question" : "Tập thơ nào sau đây không phải là của Chế Lan Viên?"
+    }, {
+      "correct_answer" : "Em gái Tây Bắc",
+      "incorrect_answer1" : "Mẹ chiến nuôi quân",
+      "incorrect_answer2" : "Em liên lạc",
+      "incorrect_answer3" : "Anh du kích",
+      "question" : "Trong nỗi nhớ của Chế Lan Viên không có hình ảnh nào sau đây?"
+    }, {
+      "correct_answer" : "Bài thơ cuộc đời",
+      "incorrect_answer1" : "Đất nở hoa",
+      "incorrect_answer2" : "Trời mỗi ngày lại sáng",
+      "incorrect_answer3" : "Những năm sáu mươi",
+      "question" : "Bài thơ Các vị La Hán chùa Tây Phương in trong tập thơ nào trong các tập sau?"
+    }, {
+      "correct_answer" : "1860",
+      "incorrect_answer1" : "1945",
+      "incorrect_answer2" : "1940",
+      "incorrect_answer3" : "1941",
+      "question" : "Bài thơ Các vị La Hán chùa Tây Phương được Huy Cận sáng tác năm nào?"
+    }, {
+      "correct_answer" : "Hoa dừa",
+      "incorrect_answer1" : "Hoa dọc chiến hào",
+      "incorrect_answer2" : "Gió Lào cát trắng",
+      "incorrect_answer3" : "Tự hát",
+      "question" : "Tập thơ nào sau đây không phải là của Xuân Quỳnh?"
+    }, {
+      "correct_answer" : "Biển",
+      "incorrect_answer1" : "Thuyền",
+      "incorrect_answer2" : "Thuyền và Biển",
+      "incorrect_answer3" : "Sóng",
+      "question" : "Bài thơ nào sau đây viết về sóng, biển không phải của Xuân Quỳnh?"
+    }, {
+      "correct_answer" : "1945",
+      "incorrect_answer1" : "1943",
+      "incorrect_answer2" : "1941",
+      "incorrect_answer3" : "1940",
+      "question" : "Nhà thơ Nguyễn Khoa Điềm sinh vào năm nào sau đây?"
+    }, {
+      "correct_answer" : "Thừa Thiên Huế",
+      "incorrect_answer1" : "Qảng Nam",
+      "incorrect_answer2" : "Quảng Trị",
+      "incorrect_answer3" : "Quảng Bình",
+      "question" : "Quê hương của Nguyễn Khoa Điềm ở?"
+    }, {
+      "correct_answer" : "Một tiếng đờn",
+      "incorrect_answer1" : "Tiếng gà gáy",
+      "incorrect_answer2" : "Đất ngoại ô",
+      "incorrect_answer3" : "Mặt đường khát vọng",
+      "question" : "Tác phẩm nào sau đây là của Nguyễn Khoa Điềm?"
+    } ]
+    }
+  }
+}

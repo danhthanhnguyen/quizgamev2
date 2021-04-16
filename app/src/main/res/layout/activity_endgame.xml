@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2d4059"
+    tools:context=".EndGameActivity">
+
+    <TextView
+        android:id="@+id/congratsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CONGRATULATIONS!"
+        android:fontFamily="@font/cubano"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@id/finalScoreTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/finalScoreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/congratsTextView"
+        app:layout_constraintBottom_toTopOf="@id/finalTimeTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/finalTimeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/finalScoreTextView"
+        app:layout_constraintBottom_toTopOf="@id/saveTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/saveTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/finalTimeTextView"
+        app:layout_constraintBottom_toTopOf="@id/LinearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Do you want to save your score?"/>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/congratsTextView"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/yesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50"
+            android:layout_marginBottom="15dp"
+            android:text="Yes"
+            android:fontFamily="@font/cubano"
+            android:background="@drawable/button_gradient"
+            app:backgroundTint="@null"/>
+
+        <Button
+            android:id="@+id/noButton"
+            android:layout_width="match_parent"
+            android:layout_weight=".50"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:fontFamily="@font/cubano"
+            android:background="@drawable/button_gradient"
+            app:backgroundTint="@null"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
