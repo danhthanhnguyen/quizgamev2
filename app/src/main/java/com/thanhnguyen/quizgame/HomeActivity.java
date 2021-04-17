@@ -24,7 +24,6 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         mediaPlayer = MediaPlayer.create(this, R.raw.intro);
-        mediaPlayer.start();
         mediaPlayer.setLooping(true);
 
         mAuth = FirebaseAuth.getInstance();
@@ -44,8 +43,6 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(HomeActivity.this, OptionActivity.class);
                 startActivity(i);// Redirect to game page
-                mediaPlayer.release();
-                mediaPlayer = null;
             }
         });
 
@@ -77,12 +74,36 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mAuth.signOut();//sign out
-                mediaPlayer.release();
-                mediaPlayer = null;
                 Intent i = new Intent(HomeActivity.this, MainActivity.class);
                 startActivity(i);
+                mediaPlayer.release();
+                mediaPlayer = null;
                 finish();
             }
         });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mediaPlayer.start();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        if(mediaPlayer != null){
+            mediaPlayer.pause();
+
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if(mediaPlayer != null){
+            mediaPlayer.release();
+
+        }
     }
 }

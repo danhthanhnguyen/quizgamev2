@@ -60,7 +60,6 @@ public class GameActivity extends AppCompatActivity {
         setContentView(R.layout.activity_game);
 
         mediaPlayer = MediaPlayer.create(this, R.raw.soundtrack);
-        mediaPlayer.start();
 
         mAuth = FirebaseAuth.getInstance();
         database = FirebaseDatabase.getInstance();
@@ -84,7 +83,7 @@ public class GameActivity extends AppCompatActivity {
                     if (timeLeft != 60) {
                         Log.d("IDLE", "IDLE");
                         Log.d("TIMER", "Time left: " + String.valueOf(timeLeft));
-                        startTimer();
+                        startTimer(timeLeft);
                     }
                 }
             }
@@ -163,7 +162,7 @@ public class GameActivity extends AppCompatActivity {
                 }
                 randomizeQuestions();
                 showQuestion();
-                startTimer();
+//                startTimer(timeLeft);
             }
 
             @Override
@@ -202,8 +201,8 @@ public class GameActivity extends AppCompatActivity {
         }
     }
 
-    private void startTimer() {
-        cTimer = new CountDownTimer(timeLeft * 1000, 1000) {
+    private void startTimer(int time) {
+        cTimer = new CountDownTimer(time * 1000, 1000) {
             @Override
             public void onTick(long millisUntilFinished) {
                 timeLeft = (int)(millisUntilFinished / 1000);
@@ -236,9 +235,16 @@ public class GameActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onPause() {
-        super.onPause();
-        mediaPlayer.release();
-        mediaPlayer = null;
+    protected void onResume() {
+        super.onResume();
+        mediaPlayer.start();
+        startTimer(timeLeft);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        mediaPlayer.pause();
+        cancelTimer();
     }
 }

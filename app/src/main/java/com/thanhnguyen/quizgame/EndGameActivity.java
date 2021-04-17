@@ -55,7 +55,6 @@ public class EndGameActivity extends AppCompatActivity {
         setContentView(R.layout.activity_endgame);
 
         mediaPlayer = MediaPlayer.create(this, R.raw.end);
-        mediaPlayer.start();
         mediaPlayer.setLooping(true);
 
         mAuth = FirebaseAuth.getInstance();
@@ -140,9 +139,14 @@ public class EndGameActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onPause() {
-        super.onPause();
-        mediaPlayer.release();
-        mediaPlayer = null;
+    protected void onResume() {
+        super.onResume();
+        mediaPlayer.start();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        mediaPlayer.pause();
     }
 }

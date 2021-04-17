@@ -20,7 +20,6 @@ public class OptionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_quiz_option);
 
         mediaPlayer = MediaPlayer.create(this, R.raw.option);
-        mediaPlayer.start();
         mediaPlayer.setLooping(true);
 
         cvMath = findViewById(R.id.cvMath);
@@ -64,9 +63,14 @@ public class OptionActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onPause() {
-        super.onPause();
-        mediaPlayer.release();
-        mediaPlayer = null;
+    protected void onResume() {
+        super.onResume();
+        mediaPlayer.start();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        mediaPlayer.pause();
     }
 }
